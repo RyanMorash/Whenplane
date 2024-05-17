@@ -11,7 +11,21 @@
 		FE2C81BD2BEF1CE9000E1EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */; };
 		FE2C81BF2BEF1CED000E1EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */; };
 		FE2C81C32BEF1CED000E1EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81C22BEF1CED000E1EE1 /* Preview Assets.xcassets */; };
+		FE2C81F42BEF43F7000E1EE1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE2C81F22BEF41F9000E1EE1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FE2C81B72BEF1CE9000E1EE1 /* Whenplane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whenplane.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +34,7 @@
 		FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2C81C02BEF1CED000E1EE1 /* Whenplane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Whenplane.entitlements; sourceTree = "<group>"; };
 		FE2C81C22BEF1CED000E1EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				FE2C81B92BEF1CE9000E1EE1 /* Whenplane */,
+				FE2C81D12BEF41F8000E1EE1 /* Frameworks */,
 				FE2C81B82BEF1CE9000E1EE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +73,7 @@
 				FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */,
 				FE2C81C02BEF1CED000E1EE1 /* Whenplane.entitlements */,
 				FE2C81C12BEF1CED000E1EE1 /* Preview Content */,
+				FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */,
 			);
 			path = Whenplane;
 			sourceTree = "<group>";
@@ -69,6 +86,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FE2C81D12BEF41F8000E1EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,6 +103,7 @@
 				FE2C81B32BEF1CE9000E1EE1 /* Sources */,
 				FE2C81B42BEF1CE9000E1EE1 /* Frameworks */,
 				FE2C81B52BEF1CE9000E1EE1 /* Resources */,
+				FE2C81F22BEF41F9000E1EE1 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -139,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2C81F42BEF43F7000E1EE1 /* Intents.intentdefinition in Sources */,
 				FE2C81BD2BEF1CE9000E1EE1 /* ContentView.swift in Sources */,
 				FE2C81BB2BEF1CE9000E1EE1 /* WhenplaneApp.swift in Sources */,
 			);
@@ -264,6 +290,7 @@
 		FE2C81C72BEF1CED000E1EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Whenplane/Whenplane.entitlements;
@@ -274,6 +301,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Whenplane/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Whenplane;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -302,6 +332,7 @@
 		FE2C81C82BEF1CED000E1EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Whenplane/Whenplane.entitlements;
@@ -312,6 +343,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Whenplane/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Whenplane;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
