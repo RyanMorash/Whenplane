@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE0B4DB92BF8433E00FFDEAD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B4DB82BF8433E00FFDEAD /* SafariWebExtensionHandler.swift */; };
-		FE0B4DCF2BF8433E00FFDEAD /* Whenplane Web Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FE0B4DCF2BF8433E00FFDEAD /* Whenplane Web Extension (macOS).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension (macOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FE0B4DDC2BF8441700FFDEAD /* release.md in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD32BF8441700FFDEAD /* release.md */; };
 		FE0B4DDD2BF8441700FFDEAD /* about.js in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD42BF8441700FFDEAD /* about.js */; };
 		FE0B4DDE2BF8441700FFDEAD /* css in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD52BF8441700FFDEAD /* css */; };
@@ -25,6 +25,24 @@
 		FE2C81BF2BEF1CED000E1EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */; };
 		FE2C81C32BEF1CED000E1EE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81C22BEF1CED000E1EE1 /* Preview Assets.xcassets */; };
 		FE2C81F42BEF43F7000E1EE1 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */; };
+		FEED571D2BF8513700CD786E /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */; };
+		FEED571E2BF8513700CD786E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */; };
+		FEED571F2BF8513700CD786E /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2784182BF828F700410EAB /* CountdownView.swift */; };
+		FEED57202BF8513700CD786E /* PlatformStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27841A2BF82AD200410EAB /* PlatformStatusView.swift */; };
+		FEED57212BF8513700CD786E /* WhenplaneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81BA2BEF1CE9000E1EE1 /* WhenplaneApp.swift */; };
+		FEED57242BF8513700CD786E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81C22BEF1CED000E1EE1 /* Preview Assets.xcassets */; };
+		FEED57252BF8513700CD786E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */; };
+		FEED572F2BF8515A00CD786E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B4DB82BF8433E00FFDEAD /* SafariWebExtensionHandler.swift */; };
+		FEED57322BF8515A00CD786E /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD62BF8441700FFDEAD /* about.html */; };
+		FEED57332BF8515A00CD786E /* css in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD52BF8441700FFDEAD /* css */; };
+		FEED57342BF8515A00CD786E /* about.js in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD42BF8441700FFDEAD /* about.js */; };
+		FEED57352BF8515A00CD786E /* inserter.js in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DDB2BF8441700FFDEAD /* inserter.js */; };
+		FEED57362BF8515A00CD786E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD92BF8441700FFDEAD /* README.md */; };
+		FEED57372BF8515A00CD786E /* screenshots in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DDA2BF8441700FFDEAD /* screenshots */; };
+		FEED57382BF8515A00CD786E /* icons in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD72BF8441700FFDEAD /* icons */; };
+		FEED57392BF8515A00CD786E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD82BF8441700FFDEAD /* manifest.json */; };
+		FEED573A2BF8515A00CD786E /* release.md in Resources */ = {isa = PBXBuildFile; fileRef = FE0B4DD32BF8441700FFDEAD /* release.md */; };
+		FEED57402BF8528200CD786E /* Whenplane Web Extension (iOS).appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FEED573E2BF8515A00CD786E /* Whenplane Web Extension (iOS).appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,13 @@
 			remoteGlobalIDString = FE0B4DB52BF8433E00FFDEAD;
 			remoteInfo = "Whenplane Web Extension";
 		};
+		FEED57412BF8528200CD786E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE2C81AF2BEF1CE9000E1EE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEED572D2BF8515A00CD786E;
+			remoteInfo = "Whenplane Web Extension (iOS)";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,7 +69,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				FE0B4DCF2BF8433E00FFDEAD /* Whenplane Web Extension.appex in Embed Foundation Extensions */,
+				FE0B4DCF2BF8433E00FFDEAD /* Whenplane Web Extension (macOS).appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEED57432BF8528200CD786E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FEED57402BF8528200CD786E /* Whenplane Web Extension (iOS).appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Whenplane Web Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension (macOS).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Whenplane Web Extension (macOS).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0B4DB82BF8433E00FFDEAD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		FE0B4DCB2BF8433E00FFDEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE0B4DCC2BF8433E00FFDEAD /* Whenplane_Web_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Whenplane_Web_Extension.entitlements; sourceTree = "<group>"; };
@@ -65,16 +101,22 @@
 		FE0B4DD92BF8441700FFDEAD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FE0B4DDA2BF8441700FFDEAD /* screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = screenshots; sourceTree = "<group>"; };
 		FE0B4DDB2BF8441700FFDEAD /* inserter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inserter.js; sourceTree = "<group>"; };
+		FE0B4DEA2BF8489400FFDEAD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		FE0B4DEC2BF8489400FFDEAD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
 		FE2784182BF828F700410EAB /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		FE27841A2BF82AD200410EAB /* PlatformStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformStatusView.swift; sourceTree = "<group>"; };
 		FE27841C2BF8368C00410EAB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FE2C81B72BEF1CE9000E1EE1 /* Whenplane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whenplane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2C81B72BEF1CE9000E1EE1 /* Whenplane (macOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whenplane (macOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2C81BA2BEF1CE9000E1EE1 /* WhenplaneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenplaneApp.swift; sourceTree = "<group>"; };
 		FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2C81C02BEF1CED000E1EE1 /* Whenplane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Whenplane.entitlements; sourceTree = "<group>"; };
 		FE2C81C22BEF1CED000E1EE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		FEED572B2BF8513700CD786E /* Whenplane (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whenplane (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEED572C2BF8513700CD786E /* Whenplane iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Whenplane iOS.plist"; path = "/Users/ryanmorash/Developer/Whenplane/Whenplane iOS.plist"; sourceTree = "<absolute>"; };
+		FEED573E2BF8515A00CD786E /* Whenplane Web Extension (iOS).appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Whenplane Web Extension (iOS).appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEED573F2BF8515A00CD786E /* Whenplane Web Extension iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Whenplane Web Extension iOS.plist"; path = "/Users/ryanmorash/Developer/Whenplane/Whenplane Web Extension iOS.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +134,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEED57222BF8513700CD786E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEED57302BF8515A00CD786E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +156,7 @@
 			children = (
 				FE0B4DB82BF8433E00FFDEAD /* SafariWebExtensionHandler.swift */,
 				FE0B4DCB2BF8433E00FFDEAD /* Info.plist */,
+				FEED573F2BF8515A00CD786E /* Whenplane Web Extension iOS.plist */,
 				FE0B4DCC2BF8433E00FFDEAD /* Whenplane_Web_Extension.entitlements */,
 				FE0B4DBA2BF8433E00FFDEAD /* Resources */,
 			);
@@ -146,8 +203,10 @@
 		FE2C81B82BEF1CE9000E1EE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE2C81B72BEF1CE9000E1EE1 /* Whenplane.app */,
-				FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension.appex */,
+				FE2C81B72BEF1CE9000E1EE1 /* Whenplane (macOS).app */,
+				FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension (macOS).appex */,
+				FEED572B2BF8513700CD786E /* Whenplane (iOS).app */,
+				FEED573E2BF8515A00CD786E /* Whenplane Web Extension (iOS).appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +220,7 @@
 				FE2C81C02BEF1CED000E1EE1 /* Whenplane.entitlements */,
 				FE2C81C12BEF1CED000E1EE1 /* Preview Content */,
 				FE2C81F32BEF43F7000E1EE1 /* Intents.intentdefinition */,
+				FEED572C2BF8513700CD786E /* Whenplane iOS.plist */,
 			);
 			path = Whenplane;
 			sourceTree = "<group>";
@@ -176,6 +236,8 @@
 		FE2C81D12BEF41F8000E1EE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE0B4DEA2BF8489400FFDEAD /* WidgetKit.framework */,
+				FE0B4DEC2BF8489400FFDEAD /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -183,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE0B4DB52BF8433E00FFDEAD /* Whenplane Web Extension */ = {
+		FE0B4DB52BF8433E00FFDEAD /* Whenplane Web Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE0B4DD22BF8433E00FFDEAD /* Build configuration list for PBXNativeTarget "Whenplane Web Extension" */;
+			buildConfigurationList = FE0B4DD22BF8433E00FFDEAD /* Build configuration list for PBXNativeTarget "Whenplane Web Extension (macOS)" */;
 			buildPhases = (
 				FE0B4DB22BF8433E00FFDEAD /* Sources */,
 				FE0B4DB32BF8433E00FFDEAD /* Frameworks */,
@@ -195,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "Whenplane Web Extension";
+			name = "Whenplane Web Extension (macOS)";
 			productName = "Whenplane Web Extension";
-			productReference = FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension.appex */;
+			productReference = FE0B4DB62BF8433E00FFDEAD /* Whenplane Web Extension (macOS).appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		FE2C81B62BEF1CE9000E1EE1 /* Whenplane */ = {
+		FE2C81B62BEF1CE9000E1EE1 /* Whenplane (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE2C81C62BEF1CED000E1EE1 /* Build configuration list for PBXNativeTarget "Whenplane" */;
+			buildConfigurationList = FE2C81C62BEF1CED000E1EE1 /* Build configuration list for PBXNativeTarget "Whenplane (macOS)" */;
 			buildPhases = (
 				FE2C81B32BEF1CE9000E1EE1 /* Sources */,
 				FE2C81B42BEF1CE9000E1EE1 /* Frameworks */,
@@ -214,10 +276,46 @@
 			dependencies = (
 				FE0B4DCE2BF8433E00FFDEAD /* PBXTargetDependency */,
 			);
-			name = Whenplane;
+			name = "Whenplane (macOS)";
 			productName = Whenplane;
-			productReference = FE2C81B72BEF1CE9000E1EE1 /* Whenplane.app */;
+			productReference = FE2C81B72BEF1CE9000E1EE1 /* Whenplane (macOS).app */;
 			productType = "com.apple.product-type.application";
+		};
+		FEED57192BF8513700CD786E /* Whenplane (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEED57282BF8513700CD786E /* Build configuration list for PBXNativeTarget "Whenplane (iOS)" */;
+			buildPhases = (
+				FEED571C2BF8513700CD786E /* Sources */,
+				FEED57222BF8513700CD786E /* Frameworks */,
+				FEED57232BF8513700CD786E /* Resources */,
+				FEED57432BF8528200CD786E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEED57422BF8528200CD786E /* PBXTargetDependency */,
+			);
+			name = "Whenplane (iOS)";
+			productName = Whenplane;
+			productReference = FEED572B2BF8513700CD786E /* Whenplane (iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEED572D2BF8515A00CD786E /* Whenplane Web Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEED573B2BF8515A00CD786E /* Build configuration list for PBXNativeTarget "Whenplane Web Extension (iOS)" */;
+			buildPhases = (
+				FEED572E2BF8515A00CD786E /* Sources */,
+				FEED57302BF8515A00CD786E /* Frameworks */,
+				FEED57312BF8515A00CD786E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Whenplane Web Extension (iOS)";
+			productName = "Whenplane Web Extension";
+			productReference = FEED573E2BF8515A00CD786E /* Whenplane Web Extension (iOS).appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -250,8 +348,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE2C81B62BEF1CE9000E1EE1 /* Whenplane */,
-				FE0B4DB52BF8433E00FFDEAD /* Whenplane Web Extension */,
+				FE2C81B62BEF1CE9000E1EE1 /* Whenplane (macOS) */,
+				FE0B4DB52BF8433E00FFDEAD /* Whenplane Web Extension (macOS) */,
+				FEED57192BF8513700CD786E /* Whenplane (iOS) */,
+				FEED572D2BF8515A00CD786E /* Whenplane Web Extension (iOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -282,6 +382,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEED57232BF8513700CD786E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEED57242BF8513700CD786E /* Preview Assets.xcassets in Resources */,
+				FEED57252BF8513700CD786E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEED57312BF8515A00CD786E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEED57322BF8515A00CD786E /* about.html in Resources */,
+				FEED57332BF8515A00CD786E /* css in Resources */,
+				FEED57342BF8515A00CD786E /* about.js in Resources */,
+				FEED57352BF8515A00CD786E /* inserter.js in Resources */,
+				FEED57362BF8515A00CD786E /* README.md in Resources */,
+				FEED57372BF8515A00CD786E /* screenshots in Resources */,
+				FEED57382BF8515A00CD786E /* icons in Resources */,
+				FEED57392BF8515A00CD786E /* manifest.json in Resources */,
+				FEED573A2BF8515A00CD786E /* release.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,13 +430,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEED571C2BF8513700CD786E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEED571D2BF8513700CD786E /* Intents.intentdefinition in Sources */,
+				FEED571E2BF8513700CD786E /* ContentView.swift in Sources */,
+				FEED571F2BF8513700CD786E /* CountdownView.swift in Sources */,
+				FEED57202BF8513700CD786E /* PlatformStatusView.swift in Sources */,
+				FEED57212BF8513700CD786E /* WhenplaneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEED572E2BF8515A00CD786E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEED572F2BF8515A00CD786E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		FE0B4DCE2BF8433E00FFDEAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FE0B4DB52BF8433E00FFDEAD /* Whenplane Web Extension */;
+			target = FE0B4DB52BF8433E00FFDEAD /* Whenplane Web Extension (macOS) */;
 			targetProxy = FE0B4DCD2BF8433E00FFDEAD /* PBXContainerItemProxy */;
+		};
+		FEED57422BF8528200CD786E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEED572D2BF8515A00CD786E /* Whenplane Web Extension (iOS) */;
+			targetProxy = FEED57412BF8528200CD786E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -532,10 +682,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.morash.Whenplane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -575,17 +727,171 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.morash.Whenplane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEED57292BF8513700CD786E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Whenplane/Whenplane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Whenplane/Preview Content\"";
+				DEVELOPMENT_TEAM = 8F4796397Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Whenplane copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Whenplane;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.morash.Whenplane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FEED572A2BF8513700CD786E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Whenplane/Whenplane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Whenplane/Preview Content\"";
+				DEVELOPMENT_TEAM = 8F4796397Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Whenplane copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Whenplane;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.morash.Whenplane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FEED573C2BF8515A00CD786E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Whenplane Web Extension/Whenplane_Web_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F4796397Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Whenplane Web Extension (macOS) copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whenplane Web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.morash.Whenplane.Whenplane-Web-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FEED573D2BF8515A00CD786E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Whenplane Web Extension/Whenplane_Web_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8F4796397Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Whenplane Web Extension (macOS) copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Whenplane Web Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.morash.Whenplane.Whenplane-Web-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE0B4DD22BF8433E00FFDEAD /* Build configuration list for PBXNativeTarget "Whenplane Web Extension" */ = {
+		FE0B4DD22BF8433E00FFDEAD /* Build configuration list for PBXNativeTarget "Whenplane Web Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE0B4DD02BF8433E00FFDEAD /* Debug */,
@@ -603,11 +909,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE2C81C62BEF1CED000E1EE1 /* Build configuration list for PBXNativeTarget "Whenplane" */ = {
+		FE2C81C62BEF1CED000E1EE1 /* Build configuration list for PBXNativeTarget "Whenplane (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE2C81C72BEF1CED000E1EE1 /* Debug */,
 				FE2C81C82BEF1CED000E1EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEED57282BF8513700CD786E /* Build configuration list for PBXNativeTarget "Whenplane (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEED57292BF8513700CD786E /* Debug */,
+				FEED572A2BF8513700CD786E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEED573B2BF8515A00CD786E /* Build configuration list for PBXNativeTarget "Whenplane Web Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEED573C2BF8515A00CD786E /* Debug */,
+				FEED573D2BF8515A00CD786E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
