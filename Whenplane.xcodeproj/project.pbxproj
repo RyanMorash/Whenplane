@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE2784192BF828F700410EAB /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2784182BF828F700410EAB /* CountdownView.swift */; };
+		FE27841B2BF82AD200410EAB /* PlatformStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27841A2BF82AD200410EAB /* PlatformStatusView.swift */; };
 		FE2C81BB2BEF1CE9000E1EE1 /* WhenplaneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81BA2BEF1CE9000E1EE1 /* WhenplaneApp.swift */; };
 		FE2C81BD2BEF1CE9000E1EE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */; };
 		FE2C81BF2BEF1CED000E1EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */; };
@@ -28,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FE2784182BF828F700410EAB /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		FE27841A2BF82AD200410EAB /* PlatformStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformStatusView.swift; sourceTree = "<group>"; };
 		FE2C81B72BEF1CE9000E1EE1 /* Whenplane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whenplane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2C81BA2BEF1CE9000E1EE1 /* WhenplaneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhenplaneApp.swift; sourceTree = "<group>"; };
 		FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE2784172BF8286900410EAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */,
+				FE2784182BF828F700410EAB /* CountdownView.swift */,
+				FE27841A2BF82AD200410EAB /* PlatformStatusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FE2C81AE2BEF1CE9000E1EE1 = {
 			isa = PBXGroup;
 			children = (
@@ -68,8 +82,8 @@
 		FE2C81B92BEF1CE9000E1EE1 /* Whenplane */ = {
 			isa = PBXGroup;
 			children = (
+				FE2784172BF8286900410EAB /* Views */,
 				FE2C81BA2BEF1CE9000E1EE1 /* WhenplaneApp.swift */,
-				FE2C81BC2BEF1CE9000E1EE1 /* ContentView.swift */,
 				FE2C81BE2BEF1CED000E1EE1 /* Assets.xcassets */,
 				FE2C81C02BEF1CED000E1EE1 /* Whenplane.entitlements */,
 				FE2C81C12BEF1CED000E1EE1 /* Preview Content */,
@@ -166,6 +180,8 @@
 			files = (
 				FE2C81F42BEF43F7000E1EE1 /* Intents.intentdefinition in Sources */,
 				FE2C81BD2BEF1CE9000E1EE1 /* ContentView.swift in Sources */,
+				FE2784192BF828F700410EAB /* CountdownView.swift in Sources */,
+				FE27841B2BF82AD200410EAB /* PlatformStatusView.swift in Sources */,
 				FE2C81BB2BEF1CE9000E1EE1 /* WhenplaneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
